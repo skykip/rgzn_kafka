@@ -53,7 +53,7 @@ public class ProducerDemo {
          * @param args
          */
         for(int i = 0;i<100;i++) {
-            ProducerRecord<String, String> msg = new ProducerRecord<>("tpc_1", "name"+i, "bigdata19-yzl+" +RandomStringUtils.randomAlphabetic(4,7) );
+            ProducerRecord<String, String> msg = new ProducerRecord<>("tpc_1", "name"+i, "0422bigdata19-yzl+" +RandomStringUtils.randomAlphabetic(4,7) );
             /**
              * 步骤4.发送消息
              * @param args

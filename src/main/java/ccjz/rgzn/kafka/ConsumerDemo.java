@@ -41,6 +41,7 @@ public class ConsumerDemo {
         //3.订阅主题
         consumer.subscribe(Arrays.asList("tpc_1"));
 
+
         //4.拉取消息
         Thread thread = new Thread(new Runnable() {
             @Override
